@@ -1,15 +1,15 @@
 <!DOCTYPE HTML>
 <html>
 <meta charset="UTF-8">
-<title>stylesheet</title>
+<title>style.css</title>
 <style>
 h1
 {
-    color: rgb(90,50,20)
+    color: rgb(90,50,20);
 }
 p
 {
-    background-color: lightpink
+    color: purple;
 }
 </style>
 </html>
