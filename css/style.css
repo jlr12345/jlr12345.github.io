@@ -1,15 +1,17 @@
 <!DOCTYPE HTML>
 <html>
+<head>
 <meta charset="UTF-8">
-<title>style.css</title>
+<title>Embedded Stylesheet</title>
 <style>
-h1
+h1  
 {
-    color: rgb(90,50,20);
+    color: red
 }
 p
 {
     color: purple;
 }
 </style>
+</head>
 </html>
