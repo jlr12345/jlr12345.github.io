@@ -1,3 +1,7 @@
+:root
+{
+    --favcolor: rgb(206,74,135);
+}
 body
 {
 background-color:rgb(197, 231, 220)
@@ -19,20 +23,20 @@ p
 }
 h2
 {
-    color: rgb(206, 74, 135);
+    color: var(--favcolor);
     text-align:center;
     font-size:30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 ul
 {
-    color: rgb(206, 74, 135);
-    text-align:center;
+    color: var(--favcolor);
+    text-align: center;
     list-style:inside;
     font-size:20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-img
+div img
 {
     width: 270px;
     border: 15px solid rgb(203, 74, 135);
