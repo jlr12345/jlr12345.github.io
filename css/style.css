@@ -2,10 +2,12 @@
 {
     --favcolor: rgb(206,74,135);
 }
+
 body
 {
 background-color:rgb(197, 231, 220)
 }
+
 h1  
 {
     color: rgb(23, 22, 87);
@@ -14,34 +16,47 @@ h1
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-variant:small-caps;
 }
+
+h2
+{
+    color: var(--favcolor);
+    font-size:30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 50px;
+ 
+}
+
+
+div ul
+{
+    color: var(--favcolor);        
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    margin-right:50px;
+    width:3in;
+   
+}
+
+div section
+{
+    float:right
+}
+
+div img
+{
+    border: 20px solid rgb(203, 74, 135);
+    padding:10px;
+    margin: 30px
+}
+
+
 p
 {
     color: rgb(23, 22, 87);
     font-size:35px;
-    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-h2
-{
-    color: var(--favcolor);
     text-align:center;
-    font-size:30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 175px;
+    margin-bottom: -150px;
 }
-ul
-{
-    color: var(--favcolor);
-    text-align: center;
-    list-style:inside;
-    font-size:20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-div img
-{
-    width: 270px;
-    border: 15px solid rgb(203, 74, 135);
-}
-div
-{
-    text-align:center;    
-}
+
