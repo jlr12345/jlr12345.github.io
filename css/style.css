@@ -49,8 +49,12 @@ p
     color: rgb(23, 22, 87);
     font-size:35px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align:left;
+    text-align:center;
+    clear: left;
 }
-
+div.button
+{
+    text-align:center;
+}
 
 
