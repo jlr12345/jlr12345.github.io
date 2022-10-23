@@ -1,3 +1,7 @@
+:root
+{
+    --favcolor: rgb(206,74,135);
+}
 body
 {
 background-color:rgb(197, 231, 220)
@@ -10,7 +14,26 @@ h1
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-variant:small-caps;
 }
+h2
+{
+    color: var(--favcolor);
+    font-size:40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
 ul
 {
     font-size: 20pt
+}
+:hover
+{
+    color:purple; 
+}
+p
+{
+    color: rgb(23, 22, 87);
+    font-size:25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:left;
+    clear: left;
 }
