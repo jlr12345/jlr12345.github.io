@@ -1,3 +1,13 @@
+@font-face
+{
+font-family: myserif;
+src: url(fonts/IBMPlexSerif-Regular.ttf);
+}
+@font-face
+{
+font-family: mysansserif;
+src: url(fonts/RobotoCondensed-Regular.ttf);
+}
 :root
 {
     --favcolor: rgb(206,74,135);
@@ -13,7 +23,7 @@ h1
     color: rgb(23, 22, 87);
     font-size:75px;
     text-align: center;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:myserif;
     font-variant:small-caps;
 }
 
@@ -21,7 +31,7 @@ h2
 {
     color: var(--favcolor);
     font-size:40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: mysansserif;
  
 }
 
