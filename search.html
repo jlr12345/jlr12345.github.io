@@ -9,9 +9,50 @@
   <body>
      <h1>Super Search</h1>
      <form action="https://www.google.com/search" method="GET">
+      <div>
+        <p>
+        <label for="query">Site: </label>
+        <input type="text" id="query" name="as_q" placeholder="Enter your search query" size="100">
+       </div>
+      </p>
+      </br>
+      <div>
+      <p>
        <label for="site">Site: </label>
-       <input type="text" id="site" name="as_sitesearch">
-     </form>
+       <input type="text" id="site" name="as_sitesearch" placeholder="Enter site you wish to search via Google" size="100">
+      </div>
+    </p>
+    </br>
+      <div>
+      <p>
+        <label for="images">Images Only</label>
+        <input type="checkbox" id="images" name="tbm" value="isch">
+       </div>
+      </p>
+      </br>
+      <div>
+      <p>Filetype: 
+        <select name="as_filetype">
+        <option value=""></option>
+        <option value="jpg">Compressed</option>
+        <option value="png">Uncompressed</option>
+        <option value="gif">Animations (maybe)</option>
+      </select> 
+     </p>
+     <p>Site contains the word: 
+      <select name="as_oq">
+      <option value=""></option>
+      <option value="Bear">Bear</option>
+      <option value="Freshman">Freshman</option>
+      <option value="Fun">Fun</option>
+    </select> 
+   </p>
+     
+       
+    </br>
+  
+       <input type="submit" value="SEARCH">
+      </form>
   </body>
   <p><a href="index.html"><img src="images/button_home.png" alt="Home button"></a></p>
 </html>
