@@ -51,6 +51,7 @@ div ul
     padding:10px;
     margin: 40px;
     float: left;
+    width: 25vmax;
 }
 
 
@@ -67,5 +68,7 @@ div.button
 {
     text-align:center
 }
+
+
 
 
