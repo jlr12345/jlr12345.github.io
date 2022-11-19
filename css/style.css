@@ -32,7 +32,7 @@ h2
     color: var(--favcolor);
     font-size:3vw;
     font-family: mysansserif;
- 
+    margin-top: 20px;  
 }
 
 
@@ -46,12 +46,12 @@ h2
     width: 45vmin;
 }
 
-div ul
+ul
 {
     color: var(--favcolor);        
     font-size:3vw;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 20px;    
+   
 }
 
 
