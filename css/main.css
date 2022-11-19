@@ -19,7 +19,7 @@ background-color:rgb(197, 231, 220)
 h1, caption
 {
     color: rgb(23, 22, 87);
-    font-size:75px;
+    font-size:5vw;
     text-align: center;
     font-family: myserif;
     font-variant:small-caps;
@@ -27,13 +27,13 @@ h1, caption
 h2
 {
     color: var(--favcolor);
-    font-size:40px;
+    font-size:4vw;
     font-family: mysansserif;
  }
 
 ul
 {
-    font-size: 30pt
+    font-size: 3vw;
 }
 :hover
 {
@@ -42,7 +42,7 @@ ul
 p
 {
     color: rgb(23, 22, 87);
-    font-size:25px;
+    font-size:3vw;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align:left;    
 }
