@@ -49,6 +49,7 @@ p
 img
 {
     width: 15vmax;
+    width: 15vmin;
 }
 iframe
 {
