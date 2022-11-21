@@ -2,26 +2,37 @@
   <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
+    <!-- below is linking to bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!--link rel="stylesheet" href="css/main.css"-->
     <meta charset="UTF-8">
     <title>These Are a Few of My Favorite Things</title>
   </head>
  <body>
-     <h1>These Are a Few of My Favorite Things</h1>
+  <!--the classes added below are Bootstrap classes-->
+     <h1 class="display-1; text-danger">These Are a Few of My Favorite Things</h1>
    
     <p>There are some things that never get old no matter how many times you watch them. Here are a few of my favorites...enjoy.</p>
     
-    <h2>Nachooooo!!!!!</h2>
-    <p>The movie Nacho Libre is so fantasticly weird—The <em>Best</em>! Here is the original 2016 movie trailer:</p>
-    <a href="https://www.youtube.com/watch?v=LCa1c0H9f1Q">Nacho Libre Movie Trailer</a>
+    <h2 class="text-info"> Nachooooo!!!!!</h2>
+    <p>The movie Nacho Libre is so fantasticly weird—it's the <em>Best</em>! I've included the original 2016 movie trailer below.</p>
     
-    <h2>Barbara and Dave meet Roger and Virginia</h2>
-    <p>This Saturday Night Live skit with Will Ferrell and Rachel Dratch is epic. I love it when you can see them trying not to laugh!</p>
-    <a href="https://www.youtube.com/watch?v=gqeQLV04kwU">SNL Skit with Will Ferrell</a>
+    <h2 class="text-info"> Barbara and Dave meet Roger and Virginia</h2>
+    <p>This Saturday Night Live skit with Will Ferrell and Rachel Dratch is epic. I love it when you can see them trying not to laugh! I included the link to watch it below.</p>
     
-    <h2>Eddie?</h2>
-    <p>All time best Christmas movie: Christmas Vacation. Even though I have these quotes memorized, it's still so funny scrolling down and seeing them:</p>
-    <a href="https://www.countryliving.com/life/g28816645/christmas-vacation-movie-quotes/">Christmas Vacation Quotes</a>
-  <p><a href="index.html"><img src="images/button_home.png" alt="Home button"></a></p>
+    <h2 class="text-info">Eddie?</h2>
+    <p>The all time best Christmas movie: Christmas Vacation. Even though I have these quotes memorized, it's still so funny reading them, click on the link below.</p>
+
+  
+ <!-- the div below is a container to put the table in -->
+ <class="container-fluid">
+  <div class="row">
+    <div class="col-md-3 display-6"><a href="https://www.youtube.com/watch?v=LCa1c0H9f1Q">Nacho Libre Trailer</a></div>
+    <div class="col-md-3 display-6"><a href="https://www.youtube.com/watch?v=gqeQLV04kwU">SNL Skit</a></div>
+    <div class="col-md-3 display-6"><a href="https://www.countryliving.com/life/g28816645/christmas-vacation-movie-quotes/">Christmas Vacation Quotes</a></div>
+</div>
+
+<p><a href="index.html"><img src="images/button_home.png" alt="Home button"></a></p>
+
 </body>
   </html>
