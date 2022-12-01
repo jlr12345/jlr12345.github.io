@@ -1,0 +1,65 @@
+@font-face
+{
+font-family: myserif;
+src: url(fonts/IBMPlexSerif-Regular.ttf);
+}
+@font-face
+{
+font-family: mysansserif;
+src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+:root
+{
+    --favcolor: rgb(228, 41, 41);
+}
+body
+{
+background-color:rgb(232, 240, 235)
+}
+h1, caption
+{
+    color: rgb(11, 59, 51);
+    font-size: 8vw;
+    text-align: center;
+    font-family: myserif;
+    font-variant: small-caps;
+}
+h2
+{
+    color: var(--favcolor);
+    font-size:4vw;
+    font-family: mysansserif;
+ }
+
+ul
+{
+    font-size: 5vw;
+}
+:hover
+{
+    color:rgb(148, 20, 94); 
+}
+p
+{
+    color: rgb(49, 122, 206);
+    font-size: 5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;    
+}
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vmax;
+    width: 50vmin;
+}
+iframe
+{
+    width: 35vmax;
+}
+div.button
+{
+    width: 75px
+}
+
