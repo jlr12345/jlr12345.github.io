@@ -8,14 +8,23 @@ src: url(fonts/IBMPlexSerif-Regular.ttf);
 font-family: mysansserif;
 src: url(fonts/RobotoCondensed-Regular.ttf);
 }
+
 :root
 {
     --favcolor: rgb(228, 41, 41);
 }
+
 body
 {
-background-color:rgb(232, 240, 235)
+background-color:rgb(232, 240, 235);
 }
+
+
+:hover
+{
+    color:rgb(148, 20, 94); 
+}
+
 h1, caption
 {
     color: rgb(11, 59, 51);
@@ -24,40 +33,47 @@ h1, caption
     font-family: myserif;
     font-variant: small-caps;
 }
-h2
-{
-    color: var(--favcolor);
-    font-size:4vw;
-    font-family: mysansserif;
- }
 
-ul
-{
-    font-size: 5vw;
-}
-:hover
-{
-    color:rgb(148, 20, 94); 
-}
-p
-{
-    color: rgb(49, 122, 206);
-    font-size: 5vw;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align:center;    
-}
 img
 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50vmax;
-    width: 50vmin;
+    width: 40vmax;
+    width: 40min;
 }
+
+h2
+{
+    color: rgb(11, 59, 51);
+    font-size: 4vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+    padding-bottom: 40px;   
+}
+
+ul
+{
+    font-size: 5vw;
+    padding-bottom: 50px;
+}
+
+footer
+{
+    text-align: center;
+    background-color:rgb(89, 197, 247);
+    color:rgb(11, 59, 51);
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 iframe
 {
     width: 35vmax;
 }
+
 div.button
 {
     width: 75px
